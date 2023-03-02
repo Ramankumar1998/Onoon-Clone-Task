@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Fashion, Electronics, Home & More | Onoon</title>
+    <!--fevicon icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="icon" href="https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+
+    
+    /*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; margin-top: 20px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+</style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerLeft">
+            <div class="logoContainer">
+                <img src="https://f-test.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg" />
+            </div>
+            <div class="country">
+                <img src="https://f.nooncdn.com/s/app/com/common/images/flags/ae.svg" alt="country">
+            </div>
+            <div class="grid">
+                <span class="addressContainer">Deliver to
+                    <div class="area">
+                        <img src="https://f.nooncdn.com/s/app/com/noon/icons/dropdownArrow.svg" alt="area"
+                            class="areaCode">
+                    </div>
+                </span>
+                <div class="address">
+                    <span class="dubai">Dubai</span>
+                </div>
+            </div>
+            <!--seach box-->
+            <div class="searchInputContainer">
+
+                <form action="" id="inputForm">
+                    <input type="text" placeholder="What are you looking for?" class="inputSearch"/>
+                </form>
+                <div class="inputCloseSearch">
+                    <i class="fa-solid fa-xmark" id="closeSearch"></i>
+                </div>
+
+                <div class="searchRecentModal">
+                    <h3>Recent Searches</h3>
+                    <div class="listofRecent">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerRight">
+            <div class="downloadContainer">
+                <!-- <div class="mobileIcon">
+                    <img src="./img/mobile.png" />
+                </div>
+                <p>Download App</p> -->
+
+                <div class="downloadHoverBtnContainer">
+                    <h3>Download From</h3>
+
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.onoo.com/images/pow/playstore-icon-big.webp" />
+                    </a>
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="becomeSupplierContainer">
+                <p>العربية</p>
+            </div>
+
+            <div class="profileAndCart">
+                <div class="profileContainer">
+                    <p>Sign In</p>
+                    <div class="profileIcon">
+                        <img src="./img/user.png" />
+                    </div>
+                    
+                </div>
+
+                <div class="CartContainer">
+                    <p>Cart</p>
+                    <div class="CartIcon">
+                        <img src="./img/cart.png" />
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--navigation-->
+    <nav>
+        <ul>
+            <li>Women Ethnic
+                <div class="subMenu">
+                    <div id="womenEthic" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Women Western
+                <div class="subMenu">
+                    <div id="womenWestern" class="submenuList">
+
+                    </div>
+
+                </div>
+            </li>
+            <li>Men
+                <div class="subMenu">
+                    <div id="men" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Kids
+                <div class="subMenu">
+                    <div id="kids" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Home & Kitchen
+                <div class="subMenu">
+                    <div id="HomeAndKitchen" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Beauty & Health
+                <div class="subMenu">
+                    <div id="beautyAndHealth" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Jewellery & Accessories
+                <div class="subMenu">
+                    <div id="JewelleryAndAccessories" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Bags & Footwear
+                <div class="subMenu">
+                    <div id="BagsFootWarId" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Electronics
+                <div class="subMenu">
+                    <div id="ElectronicsId" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!--lowest prices-->
+    <div class="lowestpriceContainer">
+        <div class="lowestPrice_text">
+            <h1>Lowest Prices </h1>
+            <h1>Best Quality Shopping</h1>
+            <div class="lowestPriceWhay">
+                <div class="lowestPriceItem">
+                    <div class="lowestPrice_icon">
+                        <img src="https://images.meesho.com/images/pow/freeDelivery.svg" />
+                    </div>
+                    <p>Free Delivery</p>
+                </div>
+
+                <div class="lowestPriceItem">
+                    <div class="lowestPrice_icon">
+                        <img src="https://images.meesho.com/images/pow/cod.svg" />
+                    </div>
+                    <p>Cash on Delivery</p>
+                </div>
+                <div class="lowestPriceItem">
+                    <div class="lowestPrice_icon">
+                        <img src="https://images.meesho.com/images/pow/easyReturns.svg" />
+                    </div>
+                    <p>Easy Returns</p>
+                </div>
+            </div>
+
+            <button class="downloadApp_contianer">
+                <div class="downloadAppIcon">
+                    <img src="https://images.meesho.com/images/pow/playstoreSmallIcon.webp" />
+                </div>
+                <p>Download the Onoon App</p>
+            </button>
+
+        </div>
+        <div class="lowestPrice_image">
+            <img src="https://images.meesho.com/images/marketing/1631722939962.webp" />
+        </div>
+    </div>
+
+
+    <!--Top Categories to choose from-->
+    <div class="topCategoriesFrom">
+        <div class="topCategoriesHeading">
+            <span class="horizontalLine"></span>
+            <h1>Top Categories to choose from</h1>
+            <span class="horizontalLine"></span>
+        </div>
+        <div class="topCategoreisImage">
+            <img src="https://images.meesho.com/images/marketing/1649760442043.webp" />
+            <img src="https://images.meesho.com/images/marketing/1649760423313.webp" />
+            <img src="https://images.meesho.com/images/marketing/1649759799809.webp" />
+        </div>
+
+        <div class="essentialContaienr">
+            <img src="https://images.meesho.com/images/marketing/1664368165450.webp" class="essen-btn" />
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760808952.webp" />
+                <img src="https://images.meesho.com/images/marketing/1664364866805.webp" />
+            </div>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760703179.webp" />
+                <img src="https://images.meesho.com/images/marketing/1664364917657.webp" />
+            </div>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760786763.webp" />
+                <img src="https://images.meesho.com/images/marketing/1664364898513.webp" />
+            </div>
+
+        </div>
+
+
+        <div class="becomesellerBanner_Container">
+            <img src="https://images.meesho.com/images/pow/downloadBannerDesktop.webp" class="becomesellerBanner" />
+            <div class="becomeSeller_Content">
+                <div class="becomeSeller_content_content">
+                    <h2>Become a Seller and </h2>
+                    <h1>Start your Online Business
+                        with Zero Investment</h1>
+                    <div class=" becomerSeller_appDownload_container">
+                        <a href="#" class="becomerSeller_appDownload">
+                            <img src="https://images.meesho.com/images/pow/playstoreIcon.webp" />
+                        </a>
+                        <a href="#" class="becomerSeller_appDownload">
+                            <img src="https://images.meesho.com/images/pow/appstoreIcon.webp" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="meesho_supper_container">
+            <img src="https://images.meesho.com/images/pow/supplyBannerDesktop.webp" />
+            <div class="meesho_supper_container_content">
+                <div class="meesho_supper_container_content_content">
+                    <h1>Register as a Onoon Supplier</h1>
+                    <p>Sell your products to crores of customers at 0% commission</p>
+                    <div class="meesho-suppliear_benifit_container">
+                        <div class="meesho_supper_benifit">
+                            <img class="meeesho_benifit_image"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg==" />
+                            <p>Grow your business 10x</p>
+                        </div>
+                        <div class="meesho_supper_benifit">
+                            <img class="meeesho_benifit_image"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg==" />
+                            <p>Enjoy 100% Profit</p>
+                        </div>
+                        <div class="meesho_supper_benifit">
+                            <img class="meeesho_benifit_image"
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDEwLjVDMCA0Ljk4IDQuNDggMC41IDEwIDAuNUMxNS41MiAwLjUgMjAgNC45OCAyMCAxMC41QzIwIDE2LjAyIDE1LjUyIDIwLjUgMTAgMjAuNUM0LjQ4IDIwLjUgMCAxNi4wMiAwIDEwLjVaTTcuMjgyODggMTQuNzkyNUM3LjY3Mjg4IDE1LjE4MjUgOC4zMDI4OCAxNS4xODI1IDguNjkyODggMTQuNzkyNUwxNi4yNzI5IDcuMjAyNUMxNi42NjI5IDYuODEyNSAxNi42NjI5IDYuMTgyNSAxNi4yNzI5IDUuNzkyNUMxNS44ODI5IDUuNDAyNSAxNS4yNTI5IDUuNDAyNSAxNC44NjI5IDUuNzkyNUw3Ljk4Mjg4IDEyLjY3MjVMNS4xMDI4OCA5Ljc5MjVDNC43MTI4OCA5LjQwMjUgNC4wODI4OCA5LjQwMjUgMy42OTI4OCA5Ljc5MjVDMy41MDU2MiA5Ljk3OTMzIDMuNDAwMzkgMTAuMjMzIDMuNDAwMzkgMTAuNDk3NUMzLjQwMDM5IDEwLjc2MiAzLjUwNTYyIDExLjAxNTcgMy42OTI4OCAxMS4yMDI1TDcuMjgyODggMTQuNzkyNVoiIGZpbGw9IiMwNkE3NTkiLz4KPC9zdmc+Cg==" />
+                            <p>Sell all over India</p>
+                        </div>
+                    </div>
+                    <a href="#" class="signup_btn_now">Sign up now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+        
+    <!--Products For You-->
+    <div class="Product_container_You">
+        <div class="product_container_you_content">
+            <aside class="product_category_you_aside">
+
+            </aside>
+            <main class="product_category_display" id="product_category_displayId">
+                <--render product--->
+            </main>
+            
+        </div>
+        <footer class="footer">
+            <div class="container bottom_border">
+            <div class="row">
+            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+            <!--headin5_amrc-->
+            <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+            <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+            <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+            
+            
+            </div>
+            
+            
+            <div class=" col-sm-4 col-md  col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+            <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+            <li><a href="http://webenlance.com">Clipping Path</a></li>
+            <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+            <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+            <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+            <li><a href="http://webenlance.com">Image Cropping</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+            </div>
+            
+            
+            <div class=" col-sm-4 col-md  col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+            <li><a href="http://webenlance.com">Remove Background</a></li>
+            <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+            <li><a href="http://webenlance.com">Logo Design</a></li>
+            <li><a href="http://webenlance.com">Vectorization</a></li>
+            <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+            <li><a href="http://webenlance.com">Image Cropping</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+            </div>
+            
+            
+            <div class=" col-sm-4 col-md  col-12 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+            <!--headin5_amrc ends here-->
+            
+            <ul class="footer_ul2_amrc">
+            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+            </ul>
+            <!--footer_ul2_amrc ends here-->
+            </div>
+            </div>
+            </div>
+            
+            
+            <div class="container">
+            <ul class="foote_bottom_ul_amrc">
+            <li><a href="http://webenlance.com">Home</a></li>
+            <li><a href="http://webenlance.com">About</a></li>
+            <li><a href="http://webenlance.com">Services</a></li>
+            <li><a href="http://webenlance.com">Pricing</a></li>
+            <li><a href="http://webenlance.com">Blog</a></li>
+            <li><a href="http://webenlance.com">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+            
+            <ul class="social_footer_ul">
+            <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <!--social_footer_ul ends here-->
+            </div>
+            
+            </footer>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js" type="module"></script>
+</body>
+
+</html>
